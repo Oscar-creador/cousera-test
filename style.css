@@ -1,0 +1,101 @@
+<style>
+
+
+	ul li:nth-child(2) li:nth-child(1){
+
+		font-size: 30px;
+	} 
+
+	ol li{
+
+		list-style: none;
+
+	}
+
+    body {
+
+		background-color: black;
+
+	}
+	a:link, a:visited{
+
+		text-decoration: none;
+		background-color: blue;
+		border: 1px solid white;	
+		display: block;
+		width: 200px;
+		text-align: center;
+		margin-bottom: 10px;
+
+	}
+
+	a:hover, a:active{
+
+		background-color: red;
+		color: gray;
+
+
+	}
+
+
+	#lannister{
+
+		background-color: red;
+		border: 10px solid yellow;
+		font-style: italic;
+		text-align: justify-content;
+		opacity: .8;
+		color: white;			
+	
+	}
+
+	#stark{
+
+		background-color: lightblue;
+		border: 10px solid black;
+		font-style: italic;
+		text-align: justify-content;
+		opacity: .8;
+		color: white;
+			
+
+	}
+
+	#title{
+
+		text-align: center;
+		color: black;
+	}
+
+	.menu{
+
+		background-color: orange;
+		border: 10px solid black;
+		display: inline-block;
+		font-size: 25px;
+		color: white;
+		position: relative;
+		left:550px;
+
+	}
+
+	.intro{
+
+		width: 300px;
+		height: 220px;
+		padding: 30px 10px 30px 10px;
+		border: 2px solid black;
+		margin: 40px;
+		box-sizing: border-box;
+		background-color: brown;
+		font-style: italic;
+		text-align: center;
+		opacity: .5;
+		font-size: 20px;
+		font-weight: bold;
+		position: relative;
+		left: 550px;
+
+	}
+
+</style>

@@ -1,0 +1,11 @@
+.row{
+
+	margin-bottom: 15px;
+
+}
+.col-md-6{
+
+	background-color: red;
+	color: white;
+	text-align: center;
+}
