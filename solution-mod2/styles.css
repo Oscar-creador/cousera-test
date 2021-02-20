@@ -1,0 +1,71 @@
+<style> 
+
+		*{
+			box-sizing: border-box;
+		}
+
+		h1{
+			margin-bottom: 15px;
+			text-align: center;
+		}
+
+		.row{
+			width: 100%;
+		}
+
+		p{
+
+			width: 90%;
+			height: 150px;
+			border: 1px solid black;
+			margin-right: auto;
+			margin-left: auto;
+			color:white;
+			font-family: helvetica;
+
+		}
+
+		@media (min-width: 992px){
+
+			.cl-lg-4{
+
+				width:33.333333333333333333333333333333%;
+				background-color: black;
+				float: left;
+				border:2px solid white;
+				margin-left: 2px;
+				
+			}
+
+		}
+
+		@media (min-width: 768px) and (max-width: 991px){
+
+			.cl-lg-3{
+
+				width:25%;
+				background-image: url("carro.jpg");
+				float: left;
+				border:1px solid white;
+				
+			}
+
+		}
+
+		@media (max-width: 767px){
+
+			.cl-lg-3{
+
+				width:25%;
+				background-image: url("carro.jpg");
+				float: left;
+				border:1px solid white;
+				
+			}
+
+		}
+		
+		
+		
+
+	</style>
